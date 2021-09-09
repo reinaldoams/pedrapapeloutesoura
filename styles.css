@@ -1,0 +1,30 @@
+#titulo {
+    text-align: center;
+}
+
+#escolha {
+    text-align: center;
+}
+
+#opcoes {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#opcoes div {
+    border: solid;
+    border-radius: 10%;
+}
+
+#opcoes img {
+    max-height: 13rem;
+    border-radius: 50%;
+}
+
+#resultado {
+    max-height: 18rem;
+    display: flex;
+    margin: auto;
+    transition: 1s;
+}
